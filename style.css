@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+#heading{
+    position: absolute;
+    font-size: 3.5rem;
+    top: 20%;
+}
+
+body{
+    background-color: #F7CFD8;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 60%;
+    height: 35%;
+    border: none;
+    border-radius:20px;
+    background-color: #F4F8D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timediv{
+    height: 70%;
+    width: 85%;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.7rem;
+}
+
+#givetime{
+    background-color: #A6F1E0;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#givedate{
+    background-color: #73C7C7;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timeDisplay{
+    position: absolute;
+    top: 33%;
+    font-size: 1.7rem;
+}
+
+#dateDisplay{
+    position: absolute;
+    top: 63%;
+    font-size: 1.7rem;
+}
